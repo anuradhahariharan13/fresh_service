@@ -1,0 +1,45 @@
+{
+  "data": {
+    "timesheet": {
+      "id": 19,
+      "created_at": "2024-09-02T01:59:04-04:00",
+      "updated_at": "2024-09-02T01:59:04-04:00",
+      "start_time": "2024-09-02T01:59:02-04:00",
+      "timer_running": false,
+      "billable": false,
+      "time_spent": 7200,
+      "executed_at": "2024-09-02T01:57:00-04:00",
+      "workspace_id": 2,
+      "note": "test note for timesheet create",
+      "agent_id": 37671,
+      "custom_fields": {
+        "test_custom_central": "test text for timesheet create",
+        "test_ts_custom_number": 29,
+        "test_ts_custom_boolean": true,
+        "test_ts_custom_number_2": 2924,
+        "test_custom_paragraph_local_peo": "test paragraph content for timesheet create",
+        "test_custom_drop_local_peo": 1,
+        "test_custom_date_local_peo": "2024-09-03",
+        "test_custom_decimal_local_peo": "2.9",
+        "test_custom_url_local_peo": "http://vai-mkp-local.freshdev.com"
+      },
+      "workable_type": "Itil::Change",
+      "note_truncated": false
+    },
+    "actor": {
+      "profile_id": 37665
+    },
+    "task": {
+      "id": 24
+    },
+    "workable": {
+      "id": 7
+    }
+  },
+  "region": "US",
+  "account_id": "1000000785",
+  "domain": "vai-mkp-local.freshservice-dev.com",
+  "event": "onTimesheetCreate",
+  "timestamp": "1725256855728",
+  "version": "1.0.0"
+}

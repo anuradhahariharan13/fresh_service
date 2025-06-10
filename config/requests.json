@@ -1,0 +1,28 @@
+{
+  "createFreshdeskTicket": {
+    "schema": {
+      "protocol": "https",
+      "host": "effy-opinyin.freshdesk.com",
+      "path": "/api/v2/tickets",
+      "method": "POST",
+      "headers": {
+        "Authorization": "Basic <%= encode(iparam.api_key + ':X') %>",
+        "Content-Type": "application/json"
+      }
+    },
+    "options": {} 
+  },
+     "updateFsTicketCustomField": { 
+    "schema": {
+      "protocol": "https",
+      "host": "<%= iparam.freshservice_domain %>",  
+      "path": "/api/v2/tickets/<%= ticket_id %>", 
+      "method": "PUT",
+      "headers": {
+        "Authorization": "Basic <%= encode(iparam.freshservice_api_key + ':X') %>", 
+        "Content-Type": "application/json"
+      }
+    },
+    "options": {}
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "freshdesk_api_key": { 
+    "display_name": "Freshdesk API Key",
+    "description": "Enter your Freshdesk API key (if applicable)",
+    "type": "text",
+    "required": false,   
+    "secure": true
+  },
+  "freshservice_api_key": { 
+    "display_name": "Freshservice API Key",
+    "description": "Enter your Freshservice API key (from Profile Settings)",
+    "type": "text",
+    "required": true,    
+    "secure": true
+  }
+}

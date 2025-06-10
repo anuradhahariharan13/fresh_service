@@ -1,0 +1,460 @@
+{
+  "iparams": {
+    "Webhook_URL": "https://webhook.site/86625f06-411f-4118-abe7-f8ae8708b5cc"
+  },
+  "currentHost": {
+    "endpoint_urls": {
+      "freshservice": "https://effy.freshservice.com"
+    },
+    "subscribed_modules": [
+      "service_user",
+      "service_change",
+      "service_ticket"
+    ],
+    "product_types": {
+      "freshservice": "ITSM"
+    }
+  },
+  "region": "IND",
+  "data": {
+    "ticket": {
+      "subject": "Request for Shabharish V : Apple MacBook",
+      "description": "",
+      "is_description_html_truncated": false,
+      "description_text": "",
+      "is_description_text_truncated": false,
+      "due_by": "2025-06-02T14:00:00+02:00",
+      "fr_due_by": "2025-05-29T16:00:00+02:00",
+      "fr_escalated": true,
+      "is_escalated": true,
+      "fwd_emails": [],
+      "reply_cc_emails": [],
+      "email_config_id": null,
+      "id": 887,
+      "group_id": null,
+      "group_name": "No Group",
+      "department_id": null,
+      "department_name": "",
+      "responder_id": null,
+      "requester_id": 27004363352,
+      "responder_email": "",
+      "responder_name": "No Agent",
+      "status": 3,
+      "status_name": "Pending",
+      "priority": 2,
+      "priority_name": "Medium",
+      "type_name": "Service Request",
+      "spam": false,
+      "source": 2,
+      "source_name": "Portal",
+      "urgency": 1,
+      "urgency_name": "Low",
+      "impact": 1,
+      "impact_name": "Low",
+      "category": null,
+      "sub_category": null,
+      "item_category": null,
+      "cc_emails": [],
+      "created_at": "2025-05-28T09:29:35+02:00",
+      "updated_at": "2025-06-09T17:48:59+02:00",
+      "custom_fields": [
+        {
+          "name": "major_incident_type",
+          "column": "ffs_01",
+          "label": "Major incident type",
+          "value": null,
+          "type": "dropdown",
+          "field_type": "custom_dropdown",
+          "id": 27000877552,
+          "freshdesk_ticket_id": 881
+        },
+        {
+          "name": "business_impact",
+          "column": "ff_text02",
+          "label": "Business impact",
+          "value": null,
+          "type": "paragraph",
+          "field_type": "custom_paragraph",
+          "id": 27000877553
+        },
+        {
+          "name": "impacted_locations",
+          "column": "ctf_04",
+          "label": "Impacted locations",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000877554
+        },
+        {
+          "name": "no_of_customers_impacted",
+          "column": "ctf_05",
+          "label": "No. of customers impacted",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000877555
+        },
+        {
+          "name": "servicenow_sync_status",
+          "column": "ffs_06",
+          "label": "ServiceNow Sync Status",
+          "value": null,
+          "type": "dropdown",
+          "field_type": "custom_dropdown",
+          "id": 27000885351
+        },
+        {
+          "name": "event_date",
+          "column": "gf_date_01",
+          "label": "Event Date",
+          "value": null,
+          "type": "date",
+          "field_type": "custom_date",
+          "id": 27000883606,
+          "date_only": false
+        },
+        {
+          "name": "employeecontractor_name",
+          "column": "ctf_01",
+          "label": "Employee/Contractor Name",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000442390
+        },
+        {
+          "name": "date_and_time_of_reporting_incident",
+          "column": "ff_date01",
+          "label": "Date and Time of reporting incident",
+          "value": null,
+          "type": "date",
+          "field_type": "custom_date",
+          "id": 27000565951,
+          "date_only": false
+        },
+        {
+          "name": "date_and_time_of_resolution",
+          "column": "ff_date02",
+          "label": "Date and Time of resolution",
+          "value": null,
+          "type": "date",
+          "field_type": "custom_date",
+          "id": 27000565953,
+          "date_only": false
+        },
+        {
+          "name": "downtime",
+          "column": "ff_int01",
+          "label": "Downtime",
+          "value": null,
+          "type": "number",
+          "field_type": "custom_number",
+          "id": 27000569466
+        },
+        {
+          "name": "servicenow_ticket",
+          "column": "ctf_02",
+          "label": "ServiceNow Ticket#",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000639772
+        },
+        {
+          "name": "resolution_code",
+          "column": "ctf_03",
+          "label": "Resolution Code",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000752011
+        },
+        {
+          "name": "final_conclusion",
+          "column": "ff_text01",
+          "label": "Final Conclusion",
+          "value": null,
+          "type": "paragraph",
+          "field_type": "custom_paragraph",
+          "id": 27000875379
+        },
+        {
+          "name": "product_family",
+          "column": "gf_string_02",
+          "label": "Product Family",
+          "value": null,
+          "type": "nested_child",
+          "field_type": "nested_child",
+          "id": 27000124941
+        },
+        {
+          "name": "product",
+          "column": "gf_string_03",
+          "label": "Product",
+          "value": null,
+          "type": "nested_child",
+          "field_type": "nested_child",
+          "id": 27000124942
+        },
+        {
+          "name": "product_category",
+          "column": "gf_string_01",
+          "label": "Product Category",
+          "value": null,
+          "type": "nested_field",
+          "field_type": "nested_field",
+          "id": 27000879400
+        },
+        {
+          "name": "lf_company",
+          "column": "gf_lf_bigint_01",
+          "label": "Company",
+          "value": null,
+          "type": "lookup",
+          "field_type": "custom_lookup",
+          "id": 27000879440
+        },
+        {
+          "name": "snow_ticket_id",
+          "column": "ctf_06",
+          "label": "snow ticket id",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000880561
+        },
+        {
+          "name": "service_ticket_id",
+          "column": "gf_ctf_01",
+          "label": "service ticket id",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000881934
+        },
+        {
+          "name": "correlation_id",
+          "column": "gf_ctf_02",
+          "label": "Correlation ID",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000882058
+        },
+        {
+          "name": "sharepoint_location",
+          "column": "gf_ctf_03",
+          "label": "Sharepoint Location",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000883098
+        },
+        {
+          "name": "consultation_type",
+          "column": "gf_ctf_04",
+          "label": "Consultation Type",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000883099
+        },
+        {
+          "name": "client",
+          "column": "gf_ctf_05",
+          "label": "Client",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000883100
+        },
+        {
+          "name": "isterminated",
+          "column": "gf_boolean_01",
+          "label": "isTerminated",
+          "value": null,
+          "type": "checkbox",
+          "field_type": "custom_checkbox",
+          "id": 27000883101
+        },
+        {
+          "name": "lf_test",
+          "column": "gf_lf_bigint_02",
+          "label": "test",
+          "value": null,
+          "type": "lookup",
+          "field_type": "custom_lookup",
+          "id": 27000884080
+        },
+        {
+          "name": "workg",
+          "column": "ctf_07",
+          "label": "WORKG",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000884518
+        },
+        {
+          "name": "service_catalogue",
+          "column": "ffs_02",
+          "label": "service_catalogue",
+          "value": null,
+          "type": "dropdown",
+          "field_type": "custom_dropdown",
+          "id": 27000884554
+        },
+        {
+          "name": "second_choice",
+          "column": "ffs_04",
+          "label": "second choice",
+          "value": null,
+          "type": "dropdown",
+          "field_type": "nested_child",
+          "id": 27000125352
+        },
+        {
+          "name": "third_choice",
+          "column": "ffs_05",
+          "label": "third choice",
+          "value": null,
+          "type": "dropdown",
+          "field_type": "nested_child",
+          "id": 27000125353
+        },
+        {
+          "name": "first_choice",
+          "column": "ffs_03",
+          "label": "First choice",
+          "value": null,
+          "type": "dropdown",
+          "field_type": "nested_field",
+          "id": 27000884574
+        },
+        {
+          "name": "category",
+          "column": "gf_ctf_06",
+          "label": "category",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000884753
+        },
+        {
+          "name": "customer_no_field",
+          "column": "gf_ctf_07",
+          "label": "customer_no_field",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000884754
+        },
+        {
+          "name": "problem_subtype",
+          "column": "gf_ctf_09",
+          "label": "problem_subtype",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000884756
+        },
+        {
+          "name": "problem_type",
+          "column": "gf_ctf_10",
+          "label": "problem_type",
+          "value": null,
+          "type": "text",
+          "field_type": "custom_text",
+          "id": 27000884757
+        },
+        {
+          "name": "freshdesk_agent_id",
+          "column": "gf_int_01",
+          "label": "freshdesk_agent_id",
+          "value": null,
+          "type": "number",
+          "field_type": "custom_number",
+          "id": 27000884758
+        },
+        {
+          "name": "freshdesk_id",
+          "column": "ff_int02",
+          "label": "freshdesk_id",
+          "value": null,
+          "type": "number",
+          "field_type": "custom_number",
+          "id": 27000884760
+        },
+        {
+          "name": "testing",
+          "column": "gf_date_02",
+          "label": "Testing",
+          "value": null,
+          "type": "date",
+          "field_type": "custom_date",
+          "id": 27000885411,
+          "date_only": false
+        },
+        {
+          "name": "freshdesk_sync",
+          "column": "ff_boolean01",
+          "label": "freshdesk_sync",
+          "value": true,
+          "type": "checkbox",
+          "field_type": "custom_checkbox",
+          "id": 27000885835
+        }
+      ],
+      "workspace_id": 2,
+      "workspace_name": "My Team",
+      "changes": {
+        "ff_boolean01": [
+          null,
+          true
+        ],
+        "flexifield_changes": {
+          "ff_boolean01": [
+            null,
+            true
+          ]
+        },
+        "updated_at": [
+          "2025-06-09T17:47:29+02:00",
+          "2025-06-09T17:48:59+02:00"
+        ],
+        "custom_fields": [
+          {
+            "id": 27000885835,
+            "name": "freshdesk_sync",
+            "value": [
+              "none",
+              "true"
+            ]
+          }
+        ]
+      },
+      "attachments": [],
+      "tags": [],
+      "change": null,
+      "assets": [],
+      "problem": null
+    },
+    "requester": {
+      "id": 27004363352,
+      "name": "Shabharish V",
+      "email": "shabharish.v@effy.co.in",
+      "mobile": null,
+      "phone": null,
+      "language": "en",
+      "created_at": "2023-04-11T12:50:20+02:00"
+    },
+    "actor": {
+      "profile_id": 27005951523
+    }
+  },
+  "event": "onTicketUpdate",
+  "timestamp": 1749484139.558076,
+  "version": "1.0.0",
+  "app_settings": {}
+}

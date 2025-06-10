@@ -1,0 +1,257 @@
+{
+  "account_id": "6957494",
+  "domain": "sample.freshservice.com",
+  "timestamp": 1684406756.665395,
+  "region": "us-east-1",
+  "event": "onUserUpdate",
+  "version": "1.0.0",
+  "data": {
+    "user": {
+      "active": true,
+      "address": "test address",
+      "created_at": "2022-12-07T12:19:05+05:30",
+      "can_see_all_tickets_from_associated_departments": true,
+      "department_ids": [
+        18,
+        19
+      ],
+      "department_ids_dropped": false,
+      "department_names": [
+        "Finance",
+        "HR"
+      ],
+      "department_names_dropped": false,
+      "background_information": "test background info",
+      "background_information_truncated": true,
+      "primary_email": "newagent8x@email.com",
+      "secondary_emails": [
+
+      ],
+      "first_name": "test",
+      "forgotten": false,
+      "id": 41,
+      "job_title": "Engineer",
+      "language": "fr",
+      "last_name": "8x",
+      "location_id": 33,
+      "location_name": "France",
+      "mobile_phone_number": "9876533213",
+      "reporting_manager_id": 80,
+      "reporting_manager_email": "newagent15@email.com",
+      "reporting_manager_name": "test 15",
+      "work_phone_number": "9876543215",
+      "time_format": "24h",
+      "time_zone": "Mumbai",
+      "updated_at": "2023-05-18T16:15:56+05:30",
+      "vip_user": false,
+      "custom_fields": {
+        "cf_org_custom_text": "org cus txt",
+        "cf_org_custom_paragraph": "test para",
+        "cf_org_custom_checkbox": true,
+        "cf_org_custom_number": 123456,
+        "cf_org_custom_dropdown": "Third Custom Choice",
+        "cf_org_custom_date": "2022-12-27T00:00:00Z",
+        "cf_org_custom_phone_number": "9087654321",
+        "cf_org_custom_url": "https://www.freshservice.com"
+      },
+      "license_type": "it_agent",
+      "occasional_agent": false,
+      "scoreboard_level": "Professional",
+      "agent_access": {
+        "groups": [
+          {
+            "id": 31,
+            "name": "Change Team",
+            "leader": false,
+            "observer": false,
+            "workspace_id": null,
+            "workspace_name": null
+          },
+          {
+            "id": 33,
+            "name": "Database Team",
+            "leader": false,
+            "observer": true,
+            "workspace_id": null,
+            "workspace_name": null
+          },
+          {
+            "id": 34,
+            "name": "Hardware Team",
+            "leader": false,
+            "observer": true,
+            "workspace_id": null,
+            "workspace_name": null
+          }
+        ],
+        "roles": [
+          {
+            "id": 30,
+            "name": "SD Agent",
+            "role_type": "admin_and_agent",
+            "scope": "entire_helpdesk",
+            "scope_groups": [
+ 
+            ],
+            "workspace_id": null,
+            "workspace_name": null
+          },
+          {
+            "id": 32,
+            "name": "Change Manager",
+            "role_type": "admin_and_agent",
+            "scope": "specified_groups",
+            "scope_groups": [
+              {
+                "id": 31,
+                "name": "Change Team"
+              }
+            ],
+            "workspace_id": null,
+            "workspace_name": null
+          },
+          {
+            "id": 33,
+            "name": "Release Manager",
+            "role_type": "admin_and_agent",
+            "scope": "entire_helpdesk",
+            "scope_groups": [
+ 
+            ],
+            "workspace_id": null,
+            "workspace_name": null
+          }
+        ]
+      },
+      "requester_access": null
+    },
+    "changes": {
+      "job_title": [
+        "EngineerXXX",
+        "Engineer"
+      ],
+      "work_phone_number": [
+        "9876543214",
+        "9876543215"
+      ],
+      "mobile_phone_number": [
+        "9876533212",
+        "9876533213"
+      ],
+      "time_zone": [
+        "Chennai",
+        "Mumbai"
+      ],
+      "language": [
+        "en",
+        "fr"
+      ],
+      "location_id": [
+        null,
+        33
+      ],
+      "location_name": [
+        null,
+        "France"
+      ],
+      "vip_user": [
+        true,
+        false
+      ],
+      "address": [
+        "test address xxx",
+        "test address"
+      ],
+      "background_information": [
+        "test background info xxx",
+        "test background info"
+      ],
+      "custom_fields": {
+        "cf_str01": [
+          "org cus txt xxx",
+          "org cus txt"
+        ],
+        "cf_text01": [
+          "test para xxx",
+          "test para"
+        ],
+        "cf_boolean01": [
+          false,
+          true
+        ],
+        "cf_int01": [
+          12345,
+          123456
+        ],
+        "cf_str02": [
+          "First Custom Choice",
+          "Third Custom Choice"
+        ],
+        "cf_date01": [
+          "2022-12-23T05:30:00+05:30",
+          "2022-12-27T00:00:00+05:30"
+        ],
+        "cf_str03": [
+          "9087654322",
+          "9087654321"
+        ],
+        "cf_text02": [
+          "https://www.freshservice.io",
+          "https://www.freshservice.com"
+        ]
+      },
+      "last_name": [
+        "8",
+        "8x"
+      ],
+      "reporting_manager_id": [
+        null,
+        80
+      ],
+      "reporting_manager_name": [
+        null,
+        "test 15"
+      ],
+      "reporting_manager_email": [
+        null,
+        "newagent15@email.com"
+      ],
+      "agent_access": {
+        "roles": {
+          "add": [
+            {
+              "id": 33,
+              "name": "Release Manager",
+              "scope": "entire_helpdesk",
+              "group_id": null,
+              "workspace_id": null,
+              "workspace_name": null
+            }
+          ]
+        },
+        "groups": {
+          "add": [
+            {
+              "id": 34,
+              "name": "Hardware Team",
+              "leader": false,
+              "observer": true,
+              "workspace_id": null,
+              "workspace_name": null
+            }
+          ]
+        }
+      },
+      "department_ids": {
+        "removed": [20]
+      },
+      "department_names": {
+        "removed": ["IT"]
+      }
+    },
+    "actor": {
+      "id": 14,
+      "name": "Raja H"
+    }
+  }
+}
