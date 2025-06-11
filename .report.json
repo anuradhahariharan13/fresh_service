@@ -2,7 +2,7 @@
   "lints": [
     {
       "severity": 1,
-      "value": "server/server.js::38: Async method 'onTicketUpdateCallback' has a complexity of 12. Maximum allowed is 7.",
+      "value": "server/server.js::38: Async method 'onTicketUpdateCallback' has a complexity of 11. Maximum allowed is 7.",
       "type": "lint"
     }
   ],
